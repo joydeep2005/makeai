@@ -11,6 +11,8 @@ from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder 
+
+
 # Loading the dataset.
 # df = pd.read_csv("iris-species.csv")
 st.header('Upload the Data')
