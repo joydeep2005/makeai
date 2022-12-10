@@ -1,6 +1,7 @@
 
 
 # Importing the necessary libraries.
+from PIL import Image
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -11,7 +12,9 @@ from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder 
-
+icn = Image.open('./Untitled2.png')
+st.set_page_config(page_title='MakeAi',
+                  page_icon=icn)
 
 # Loading the dataset.
 # df = pd.read_csv("iris-species.csv")
